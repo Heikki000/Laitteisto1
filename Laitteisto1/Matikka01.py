@@ -20,3 +20,7 @@ print(vastaus_2a)
 print(vastaus_2b)
 print(taulukko_radians)
 
+hypotenuusa = math.hypot(2.3, 4.7)
+print(hypotenuusa)
+
+
