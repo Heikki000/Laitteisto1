@@ -31,7 +31,8 @@ print(vastaus_2a)
 print(vastaus_2b)
 print(sanakirja_radians)
 print(f"Hypotenuusa on {hypotenuusa:.1f} ja 2 kulmaa ovat {kulma_1:.1f} ja {kulma_2:.1f}.")
-for key, value in sanakirja_factorial.items():
+for key in sanakirja_factorial:
+    value = sanakirja_factorial[key]
     print(f"{key}! : {value}")
 
 
