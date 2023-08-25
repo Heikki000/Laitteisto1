@@ -1,9 +1,9 @@
-#tehtava 2
+#Laitteisto1 / Matikka, tehtava 2
+
 import math
 
 vastaus_1a = math.degrees(2.493)
 vastaus_1b = math.degrees(0.911)
-
 vastaus_2a = math.radians(137.7)
 vastaus_2b = math.radians(62.3)
 
@@ -25,14 +25,16 @@ for n in taulukko_number:
     factorial_n = math.factorial(n)
     sanakirja_factorial[n] = f"{factorial_n}"
 
+for key in sanakirja_factorial:
+    value = sanakirja_factorial[key]
+    print(f"{key}! : {value}")
+
 print(vastaus_1a)
 print(vastaus_1b)
 print(vastaus_2a)
 print(vastaus_2b)
 print(sanakirja_radians)
 print(f"Hypotenuusa on {hypotenuusa:.1f} ja 2 kulmaa ovat {kulma_1:.1f} ja {kulma_2:.1f}.")
-for key in sanakirja_factorial:
-    value = sanakirja_factorial[key]
-    print(f"{key}! : {value}")
+
 
 
