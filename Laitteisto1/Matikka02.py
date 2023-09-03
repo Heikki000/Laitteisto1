@@ -10,4 +10,10 @@ print("lukutaulukko -> size:", lukutaulukko.size)
 print("lukutaulukko -> dtype:", lukutaulukko.dtype)
 '''
 #2
+u = np.array([2, 3])
+v = np.array([4, -7])
+uu = np.array([1, 1, 1])
+vv = np.array([3, -3, 2])
+
+#3
 
