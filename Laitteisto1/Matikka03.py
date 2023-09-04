@@ -1,4 +1,4 @@
-#Laitteisto1 / Matikka, tehtava 3
+#Laitteisto1 / Matikka, tehtava 4
 import numpy as np
 import numpy.linalg as la
 import matplotlib.pyplot as plt
