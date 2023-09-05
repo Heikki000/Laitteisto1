@@ -1,10 +1,14 @@
-import math
+import numpy as np
 
-taulukko_degree = [30, 45, 60, 90, 120, 135, 150, 180, 270, 360]
-taulukko_radians = {}
+# Määritellään matriisi A
+A = np.array([[1+1j, 3j]])
 
-for n in taulukko_degree:
-    radiaani = math.radians(n)
-    taulukko_radians[n] = f"{radiaani/180:.2f}π"
+# Määritellään kerrottava luku (1+i)
+kerrottava_luku = 1 + 1j
 
-print(taulukko_radians)
+# Suoritetaan kertolasku
+tulos = kerrottava_luku * A
+
+# Tulostetaan tulos
+print("Tulos:")
+print(tulos)
