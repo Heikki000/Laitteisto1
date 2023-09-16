@@ -19,7 +19,7 @@ answer_2b = solve([4*x + 2*y - 2*z, 2*x + y - z - 1, 3*x + y - 2*z - 1], [x, y, 
 print(answer_2b)
 
 #matikka2 kertaustahtava
-kertaus_1a = solve([5*x + 3*y -9, 2*x + y - 4], [x, y])
+kertaus_1a = solve([5*x + 3*y - 9, 2*x + y - 4], [x, y])
 kertaus_1b = solve([2*x + y + z - 6, x + 3*y + z - 2, 2*x + y + 2*z - 9], [x, y, z])
 kertaus_1c = solve([x + z + 3*z + 1, 3*x + y + z - 5, 2*x + y + 2*z - 2], [x, y, z])
 print(kertaus_1a)
