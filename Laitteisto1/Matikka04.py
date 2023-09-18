@@ -1,6 +1,6 @@
 #Laitteisto1 / Matikka4, tehtava 2
 from sympy import symbols, solve
-x, y, z, a, b, c = symbols('x, y, z, a, b, c')
+x, y, z = symbols('x, y, z')
 
 #tehtava 1 a)
 answer_1a = solve([x - 2*y - 2*z, -2*x + y - z + 3, 3*x + 2*y + z - 4], [x, y, z])
