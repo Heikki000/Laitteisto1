@@ -33,18 +33,17 @@ print(tulo_aaaa)
 
 #tehtava 2
 print()
-print("Tehtava 2. transpoosit")
+print("Tehtava 2. transpoosit 1")
 #transpoosit
-#a)
-print(np.transpose(tulo_a))
+#A
+qq = np.array([4, 9, 0], [-3, 7, -11])
+print(np.transpose(qq))
 # print(tulo_a.T)       /toinen merkintätapa
-#b)
-print(np.transpose(tulo_aa))
-#c)
-print(np.transpose(tulo_aaa))
-#d)
-print(np.transpose(tulo_aaaa))
-
+#B
+ww = np.array([[8, 9], [-3, 12], [0, -1], [7, 1]])
+print(np.transpose(ww))
+print()
+print("Tehtava 2. determinantit 1")
 #determinantit          /numpy.linalg.det()
 print()
 print("Tehtava 2. determinantit")
