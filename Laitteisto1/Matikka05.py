@@ -55,4 +55,4 @@ print("Tehtava 2. determinantit")
 #c)
 #print(la.det(tulo_aaa))     /ei voi laskea, koska ei ole neliömatriisi
 #d)
-print(la.det(tulo_aaaa))1
+print(la.det(tulo_aaaa))
