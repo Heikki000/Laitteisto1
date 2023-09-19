@@ -1,4 +1,5 @@
 #Laitteisto1 / Matikka5, tehtava 4
+import sympy as sp
 import numpy as np
 import numpy.linalg as la
 #tehtava 1
@@ -52,8 +53,9 @@ print()
 ee = np.array([[5, -6], [8, 10]])
 print(int(la.det(ee)))
 #b)
+#j = sp.symbols('j')
 eee = np.array([[1 - 1j, -1j], [1j, 1 - 1j]])
-print(la.det(eee))
+print((la.det(eee)))
 print()
 print("Tehtava 2 / determinantit tehtavasta 2.2")
 #a)
