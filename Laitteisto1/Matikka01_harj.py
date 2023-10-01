@@ -1,14 +1,15 @@
-import numpy as np
+import sympy as sp
 
-# Määritellään matriisi A
-A = np.array([[1+1j, 3j]])
+# Define symbolic variable
+j = sp.symbols('j')
 
-# Määritellään kerrottava luku (1+i)
-kerrottava_luku = 1 + 1j
+# Define the matrix eee
+eee = sp.Matrix([[1 - 1j, -1j], [1j, 1 - 1j]])
 
-# Suoritetaan kertolasku
-tulos = kerrottava_luku * A
+# Calculate the determinant symbolically
+determinant = eee.det()
 
-# Tulostetaan tulos
-print("Tulos:")
-print(tulos)
+# Simplify the result
+simplified_determinant = sp.simplify(determinant)
+
+print(simplified_determinant)
